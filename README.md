@@ -13,8 +13,8 @@ Sayantan Bhadra<sup>1</sup>, Umberto Villa<sup>1</sup> and Mark A. Anastasio<sup
 ## System requirements
 * Linux
 * Anaconda >= 2018.2 
-* Python 3.6
+* Python >= 3.6
 * Numpy 1.18.2
-* Pillow 6.2.1
+* PyTorch 1.3.1
 * 1 NVIDIA GPU (compute capability GeForce GTX 1080 or higher and minimum 8 GB RAM)
 * NVIDIA driver >= 440.59, CUDA toolkit >= 10.0
