@@ -1,2 +1,0 @@
-# mining-tomo-solutions-pulse
-
