@@ -2,9 +2,9 @@
 
 ### Paper:
 
-Sayantan Bhadra, Umberto Villa and Mark A. Anastasio <br />
-Washington University in St. Louis, USA <br />
-University of Illinois at Urbana-Champaign, USA
+Sayantan Bhadra<sup>*<sup\>, Umberto Villa<sup>*<sup\> and Mark A. Anastasio<sup>**<sup\> <br />
+<sup>*<sup\>Washington University in St. Louis, USA <br />
+<sup>**<sup\>University of Illinois at Urbana-Champaign, USA
 
 ---
 
