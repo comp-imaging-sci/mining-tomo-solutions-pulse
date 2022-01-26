@@ -1,4 +1,4 @@
-# Mining the manifold of deep generative models for diverse images from tomographic measurements - PyTorch implementation
+# Mining the manifolds of deep generative models for multiple data-consistent solutions of tomographic imaging problems - PyTorch implementation
 
 ### Paper:
 
