@@ -8,6 +8,6 @@ University of Illinois at Urbana-Champaign, USA
 
 ---
 
-![mri_panel_6x.pdf](https://github.com/comp-imaging-sci/mining-tomo-solutions-pulse/files/7941500/mri_panel_6x.pdf)
+![alt text](https://github.com/comp-imaging-sci/mining-tomo-solutions-pulse/blob/main/figures/mri_panel_8x.pdf)
 
 
