@@ -2,7 +2,7 @@
 
 ### Paper:
 
-Sayantan Bhadra<sup>1</sup>, Umberto Villa<sup>1</sup> and Mark A. Anastasio<sup>2</sup> <br />
+Sayantan Bhadra<sup>1,2</sup>, Umberto Villa<sup>1</sup> and Mark A. Anastasio<sup>2</sup> <br />
 <sup>1</sup>Washington University in St. Louis, USA <br />
 <sup>2</sup>University of Illinois at Urbana-Champaign, USA
 
