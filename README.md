@@ -10,4 +10,11 @@ Sayantan Bhadra<sup>1</sup>, Umberto Villa<sup>1</sup> and Mark A. Anastasio<sup
 
 ![Transformation Preview](https://github.com/comp-imaging-sci/mining-tomo-solutions-pulse/blob/main/figures/mri_panel_8x.png)
 
-
+## System requirements
+* Linux
+* Anaconda >= 2018.2 
+* Python 3.6
+* Numpy 1.18.2
+* Pillow 6.2.1
+* 1 NVIDIA GPU (compute capability GeForce GTX 1080 or higher and minimum 8 GB RAM)
+* NVIDIA driver >= 440.59, CUDA toolkit >= 10.0
