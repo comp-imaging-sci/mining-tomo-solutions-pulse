@@ -19,5 +19,6 @@ Sayantan Bhadra<sup>1</sup>, Umberto Villa<sup>1</sup> and Mark A. Anastasio<sup
 * 1 NVIDIA GPU (compute capability GeForce GTX 1080 or higher and minimum 8 GB RAM)
 * NVIDIA driver >= 440.59, CUDA toolkit >= 10.0
 
+The codes for reproducing the results in the paper will be released soon.
 
 **Abstract:**
