@@ -1,6 +1,6 @@
 # Mining the manifolds of deep generative models for multiple data-consistent solutions of tomographic imaging problems - PyTorch implementation
 
-### Paper:
+### Paper: https://arxiv.org/abs/2202.05311
 
 Sayantan Bhadra<sup>1</sup>, Umberto Villa<sup>1</sup> and Mark A. Anastasio<sup>2</sup> <br />
 <sup>1</sup>Washington University in St. Louis, USA <br />
@@ -19,5 +19,16 @@ Sayantan Bhadra<sup>1</sup>, Umberto Villa<sup>1</sup> and Mark A. Anastasio<sup
 * 1 NVIDIA GPU (compute capability GeForce GTX 1080 or higher and minimum 8 GB RAM)
 * NVIDIA driver >= 440.59, CUDA toolkit >= 10.0
 
-(The codes for reproducing the results in the paper will be released soon.)
+## Directory structure and usage
+* `MRI`: Contains data and code for undersampled k-space data
+* `CT`: Contains data and code for limited-angle CT data
+
+## MRI experiments
+* `knee_1` and `knee_2`: Folders containing objects Knee 1 and Knee 2
+* `kspace_1` and `kspace_2`: Folders containing undersampled k-space data from Knee 1 and Knee 2
+* `masks`: Folder containing 6-fold and 8-fold random Cartesian sampling masks
+
+## CT experiments
+
+
 
