@@ -56,3 +56,5 @@ Run PULSE++ with root directory as `CT/`
 1. Download the system matrix `H` from Databank
 2. Run `run_meas_alpha_airt_kl.sh`
 
+Finish!
+
