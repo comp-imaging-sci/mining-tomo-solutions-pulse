@@ -59,5 +59,5 @@ Run PULSE++ with root directory as `CT/`
 1. Place the downloaded system matrix `CT_H_matrix.mat` in the directory `CT/`
 2. Run `run_meas_alpha_airt_kl.sh`
 
-Finish!
+
 
