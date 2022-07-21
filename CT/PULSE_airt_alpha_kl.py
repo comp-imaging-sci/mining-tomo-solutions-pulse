@@ -172,7 +172,7 @@ class PULSE_airt_alpha_kl(torch.nn.Module):
         scheduler = torch.optim.lr_scheduler.LambdaLR(opt.opt, schedule_func)
         
         if limited_angle:
-            H_csc = scipy.io.loadmat('H_la_'+str(self.n_proj)+'.mat')['H']
+            H_csc = scipy.io.loadmat('CT_H_matrix.mat')['H']
         else:
             H_csc = scipy.io.loadmat('H_views_'+str(self.n_proj)+'.mat')['H']
         #loss_builder = LossBuilder(ref_im, loss_str, loss_domain, self.I, self.n_angles, df_constant, eps).cuda()

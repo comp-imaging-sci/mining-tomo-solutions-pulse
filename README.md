@@ -24,6 +24,9 @@ conda create -f pulse_pp.yml
 ```
 * **Langevin sampling**: Set up virtual environment by running the commands at https://github.com/utcsilab/csgm-mri-langevin#setup-environment, with root directory as `MRI/langevin/`
 
+## Downloads
+Download pre-trained model weights of StyleGANs and NCSNv2, and the system matrix for the limited-angle CT imaging system from UIUC Databank: https://doi.org/10.13012/B2IDB-8852490_V1
+
 ## Undersampled k-space experiments
 The scripts for PULSE++ and PULSE should be run with root directory as `MRI/`. For running Langevin sampling, the root directory should be `MRI/langevin`.
 
@@ -33,7 +36,7 @@ The scripts for PULSE++ and PULSE should be run with root directory as `MRI/`. F
 * `masks`: Folder containing 6-fold and 8-fold random Cartesian sampling masks
 
 ### PULSE++
-1. Download `MRI_synthesis.pkl` with MRI-StyleGAN synthesis network model weights from Databank. Save the file under `MRI/` (used for both PULSE++ and PULSE)
+1. Save the downloaded MRI-StyleGAN model weights file `MRI_synthesis.pt` under `MRI/` (used for both PULSE++ and PULSE)
 2. Run `./run_meas_alpha.sh`
 
 ### PULSE
@@ -41,19 +44,19 @@ The scripts for PULSE++ and PULSE should be run with root directory as `MRI/`. F
 
 ### Langevin sampling
 1. Go to the directory `MRI/langevin`
-2. Download `MRI_checkpoint.pt` for NCSNv2 model weights from Databank. Save the file in `MRI/langevin`
+2. Save the downloaded MRI-NCSNv2 model weights file `MRI_ncsnv2.pth` under `MRI/` (used for both PULSE++ and PULSE)
 3. Run `./run_multiple_no_norm.sh`
 
 
 ## Limited-angle CT experiments
 Run PULSE++ with root directory as `CT/`
 
-### Data subdirectories in `MRI`:
+### Data subdirectories in `CT`:
 * `lung_1` and `lung_2`: Folders containing objects Lung 1 and Lung 2
 * `proj_1` and `proj_2`: Folders containing limited-angle projection data from Lung 1 and Lung 2
 
 ### PULSE++
-1. Download the system matrix `H` from Databank
+1. Place the downloaded system matrix `CT_H_matrix.mat` in the directory `CT/`
 2. Run `run_meas_alpha_airt_kl.sh`
 
 Finish!
